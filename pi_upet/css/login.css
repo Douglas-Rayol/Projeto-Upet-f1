@@ -1,0 +1,241 @@
+body{
+    background-color: #fa6312;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: rgb(54, 54, 54);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Menu principal */
+.menu-principal{
+    width: 100%;
+    height: 80px;
+}
+
+main{
+    width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo{
+    margin-top: 10px;
+    float: left;
+    padding: 16px;
+    width: 3%;
+}
+
+.menu-secao ul li{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.menu-secao a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+}
+
+.menu-secao{
+    width: 50%;
+    float: left;
+}
+
+.menu-opcao a{
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin: 20px 10px 0;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+}
+
+.menu-opcao{
+    width: 40%;
+    float: right;
+}
+/* Fim do menu principal */
+
+.posicao{
+    width: 1500px;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.posicao ul li{
+    list-style: none;
+    float: left;
+    display: inline-block;
+}
+
+.imagem img{
+    width: 150%;
+}
+
+.login-formulario{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 340px;
+}
+
+.login-titulo{
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.login-subtitulo{
+    font-weight: 500px;
+    margin-bottom: 45px;
+}
+
+.login-cadastro{
+    color:rgb(54, 54, 54);
+    font-weight: 400;
+}
+
+.login-formulario a{
+    text-decoration: none;
+    color:rgb(54, 54, 54);
+    font-weight: 620;
+}
+
+.input-login{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-color: hsl(21, 88%, 90%);
+    margin-bottom: -500px;
+}
+
+.input-login::placeholder{
+    color:hsl(21, 57%, 55%);
+}
+
+#botao-login{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-color:rgb(54, 54, 54);
+    color: white;
+    font-weight: 500;
+}
+
+.cadastro-formulario{
+    margin-left: 80%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 680px;
+}
+
+.cadastro-titulo{
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.cadastro-subtitulo{
+    font-weight: 500px;
+    margin-bottom: 45px;
+}
+
+.input-cadastro{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-color: hsl(21, 88%, 90%);
+    margin-bottom: -500px;
+}
+
+.input-cadastro::placeholder{
+    color:hsl(21, 57%, 55%);
+}
+
+#botao-cadastro{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-color:rgb(54, 54, 54);
+    color: white;
+    font-weight: 500;
+}
+
+.cadastro-login{
+    color:rgb(54, 54, 54);
+    font-weight: 400;
+}
+
+.cadastro-formulario a{
+    text-decoration: none;
+    color:rgb(54, 54, 54);
+    font-weight: 620;
+}
+
+.cadproduto-formulario{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+
+.cadproduto-formulario a{
+    text-decoration: none;
+    color:rgb(54, 54, 54);
+    font-weight: 620;
+}
+
+.input-cadproduto{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-color: hsl(21, 88%, 90%);
+    margin-bottom: -500px;
+}
+
+.input-cadproduto::placeholder{
+    color:hsl(21, 57%, 55%);
+}
+
+.btn-cadproduto{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-color:rgb(54, 54, 54);
+    color: white;
+    font-weight: 500;
+}
+
+.input-cad{
+    color: white;
+    font-weight: 500px;
+}
+
+#cadproduto-descricao{
+    width: 400px;
+}
+
+#select{
+    color:hsl(21, 57%, 55%);
+}
+

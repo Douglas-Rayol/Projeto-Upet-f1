@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Comprar</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/Cart.css">
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../upet.ico">
+</head>
+<body>
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <a href="" class="logo"><img src="../img/logo_upet.png" /></a>
+            <!--icon Carrinho-->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Meu Carrinho</h2>
+                <!--content-->
+                <div class="cart-content"></div>
+                <!--Total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!--Botao-->
+                <button type="button" class="btn-comprar">Enviar via WhatsApp</button>
+                <!--Cart fechar-->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!--Shop-->
+    <section class="shop container">
+        <h2 class="section-title">Carrinho de Produtos</h2>
+        <!--Container-->
+        <div class="shop-content">
+            <!--Box 1-->
+           <div class="produto-box">
+            <img src="./img/a1.jpg" alt="" class="produto-img">
+            <h2 class="produto-title">Premie Golden</h2>
+            <span class="price">R$34.29</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 2-->
+            <div class="produto-box">
+                <img src="./img/a2.jpg" alt="" class="produto-img">
+                <h2 class="produto-title">Pedrigree Adulto</h2>
+                <span class="price">R$44.89</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+               </div> 
+            <!--Box 3-->
+           <div class="produto-box">
+            <img src="./img/a3.jpg" alt="" class="produto-img">
+            <h2 class="produto-title">Premie Filhote</h2>
+            <span class="price">R$33.25</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 4-->
+            <div class="produto-box">
+                <img src="./img/a4.jpg" alt="" class="produto-img">
+                <h2 class="produto-title">Pedrigree Biscrok</h2>
+                <span class="price">R$22.99</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+               </div>
+            <!--Box 5-->
+           <div class="produto-box">
+            <img src="./img/b1.jpg" alt="" class="produto-img">
+            <h2 class="produto-title">Bola que da Comida</h2>
+            <span class="price">R$35.78</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 6-->
+            <div class="produto-box">
+                <img src="./img/b2.jpg" alt="" class="produto-img">
+                <h2 class="produto-title">Mordedor de Peço</h2>
+                <span class="price">R$37.78</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+               </div>
+             <!--Box 7-->
+           <div class="produto-box">
+            <img src="./img/b3.jpg" alt="" class="produto-img">
+            <h2 class="produto-title">Pneu Mordedor</h2>
+            <span class="price">R$35.20</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 8-->
+            <div class="produto-box">
+                <img src="./img/b4.jpg" alt="" class="produto-img">
+                <h2 class="produto-title">Cabo de guerra</h2>
+                <span class="price">R$35.10</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+             <!--Box 9-->
+           <div class="produto-box">
+            <img src="./img/r1.jpg" alt="" class="produto-img">
+            <h2 class="produto-title">Vestido dee bolinha</h2>
+            <span class="price">R$55.67</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 10-->
+            <div class="produto-box">
+                <img src="./img/r2.jpg" alt="" class="produto-img">
+                <h2 class="produto-title">Moletom</h2>
+                <span class="price">R$47.89</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+             <!--Box 11-->
+           <div class="produto-box">
+            <img src="./img/r3.jpg" alt="" class="produto-img">
+            <h2 class="produto-title">Vestido com Lacinho</h2>
+            <span class="price">R$45.90</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 12-->
+            <div class="produto-box">
+                <img src="./img/r4.jpg" alt="" class="produto-img">
+                <h2 class="produto-title">Vestido Florido</h2>
+                <span class="price">R$35.99</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+             <!--Box 13-->
+           <div class="produto-box">
+            <img src="./img/s1.jpg" alt="" class="produto-img">
+            <h2 class="produto-title">Frontline</h2>
+            <span class="price">R$46.56</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 14-->
+            <div class="produto-box">
+                <img src="./img/s2.jpg" alt="" class="produto-img">
+                <h2 class="produto-title">Bravecto</h2>
+                <span class="price">R$45.12</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+             <!--Box 15-->
+           <div class="produto-box">
+            <img src="./img/s3.jpg" alt="" class="produto-img">
+            <h2 class="produto-title">Fipronil Pour-on</h2>
+            <span class="price">R$35</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 16-->
+            <div class="produto-box">
+                <img src="./img/s4.jpg" alt="" class="produto-img">
+                <h2 class="produto-title">Lenços Umedecidos</h2>
+                <span class="price">R$24.78</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+               </div>      
+        </div>
+    </section>
+    <!--Link do JS-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
